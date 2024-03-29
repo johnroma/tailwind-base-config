@@ -1,0 +1,28 @@
+{
+  "name": "@anthood/tw-config",
+  "version": "0.0.1",
+  "description": "Boilerplate with common font setup and 8px based grid system",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "tw-config": "node bin/index.mjs"
+  },
+  "bin": {
+    "tw-config": "./bin/index.mjs"
+  },
+  "keywords": [
+    "tailwindcss",
+    "css",
+    "boilerplate"
+  ],
+  "author": "John Romani",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.16",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2"
+  }
+}
